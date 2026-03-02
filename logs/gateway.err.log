@@ -1,0 +1,969 @@
+2026-03-02T03:32:42.538Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 2.34s.
+2026-03-02T03:32:50.185Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 3.92s.
+2026-03-02T03:33:01.928Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 7.42s.
+2026-03-02T03:33:19.849Z [gateway] security audit: device access upgrade requested reason=scope-upgrade device=42b35dd37f608e47bcc3f84ca635a0201d8a331c0594479ac2965fc81aaa4d17 ip=unknown-ip auth=token roleFrom=operator roleTo=operator scopesFrom=operator.read scopesTo=operator.admin client=gateway-client conn=29424c0e-6153-4c02-b3c2-0ce4bd74271d
+2026-03-02T03:33:24.225Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 13.75s.
+2026-03-02T03:34:03.311Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 21.73s.
+2026-03-02T03:34:56.307Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:35:57.579Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:36:37.597Z [config/schema] possibly sensitive key found: (secrets)
+2026-03-02T03:36:37.597Z [config/schema] possibly sensitive key found: (secrets.providers)
+2026-03-02T03:36:37.598Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-02T03:36:37.599Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-02T03:36:37.599Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-02T03:36:37.600Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowlist)
+2026-03-02T03:36:37.600Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowlist[])
+2026-03-02T03:36:37.603Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-02T03:36:37.604Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-02T03:36:37.604Z [config/schema] possibly sensitive key found: (secrets.providers.*.path)
+2026-03-02T03:36:37.604Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-02T03:36:37.604Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-02T03:36:37.604Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-02T03:36:37.605Z [config/schema] possibly sensitive key found: (secrets.providers.*.timeoutMs)
+2026-03-02T03:36:37.605Z [config/schema] possibly sensitive key found: (secrets.providers.*.maxBytes)
+2026-03-02T03:36:37.605Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-02T03:36:37.605Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-02T03:36:37.606Z [config/schema] possibly sensitive key found: (secrets.providers.*.command)
+2026-03-02T03:36:37.606Z [config/schema] possibly sensitive key found: (secrets.providers.*.args)
+2026-03-02T03:36:37.606Z [config/schema] possibly sensitive key found: (secrets.providers.*.args[])
+2026-03-02T03:36:37.606Z [config/schema] possibly sensitive key found: (secrets.providers.*.timeoutMs)
+2026-03-02T03:36:37.606Z [config/schema] possibly sensitive key found: (secrets.providers.*.noOutputTimeoutMs)
+2026-03-02T03:36:37.607Z [config/schema] possibly sensitive key found: (secrets.providers.*.maxOutputBytes)
+2026-03-02T03:36:37.607Z [config/schema] possibly sensitive key found: (secrets.providers.*.jsonOnly)
+2026-03-02T03:36:37.607Z [config/schema] possibly sensitive key found: (secrets.providers.*.env)
+2026-03-02T03:36:37.607Z [config/schema] possibly sensitive key found: (secrets.providers.*.env.*)
+2026-03-02T03:36:37.607Z [config/schema] possibly sensitive key found: (secrets.providers.*.passEnv)
+2026-03-02T03:36:37.608Z [config/schema] possibly sensitive key found: (secrets.providers.*.passEnv[])
+2026-03-02T03:36:37.608Z [config/schema] possibly sensitive key found: (secrets.providers.*.trustedDirs)
+2026-03-02T03:36:37.608Z [config/schema] possibly sensitive key found: (secrets.providers.*.trustedDirs[])
+2026-03-02T03:36:37.608Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowInsecurePath)
+2026-03-02T03:36:37.609Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowSymlinkCommand)
+2026-03-02T03:36:37.609Z [config/schema] possibly sensitive key found: (secrets.defaults)
+2026-03-02T03:36:37.609Z [config/schema] possibly sensitive key found: (secrets.defaults.env)
+2026-03-02T03:36:37.610Z [config/schema] possibly sensitive key found: (secrets.defaults.file)
+2026-03-02T03:36:37.610Z [config/schema] possibly sensitive key found: (secrets.defaults.exec)
+2026-03-02T03:36:37.610Z [config/schema] possibly sensitive key found: (secrets.resolution)
+2026-03-02T03:36:37.610Z [config/schema] possibly sensitive key found: (secrets.resolution.maxProviderConcurrency)
+2026-03-02T03:36:37.611Z [config/schema] possibly sensitive key found: (secrets.resolution.maxRefsPerProvider)
+2026-03-02T03:36:37.611Z [config/schema] possibly sensitive key found: (secrets.resolution.maxBatchBytes)
+2026-03-02T03:36:37.611Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-02T03:36:37.611Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-02T03:36:37.611Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-02T03:36:37.612Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-02T03:36:37.612Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-02T03:36:37.612Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-02T03:36:37.612Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-02T03:36:37.612Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-02T03:36:37.613Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-02T03:36:37.737Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-02T03:36:37.737Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-02T03:36:37.737Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
+2026-03-02T03:36:37.738Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-02T03:36:37.738Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-02T03:36:37.738Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
+2026-03-02T03:36:37.738Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-02T03:36:37.739Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-02T03:36:37.739Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
+2026-03-02T03:36:58.932Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:38:00.267Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:39:01.708Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:39:53.112Z [ws] unauthorized conn=f3956837-0372-4215-bf8d-c9777c3b78be remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T03:39:53.116Z [ws] closed before connect conn=f3956837-0372-4215-bf8d-c9777c3b78be remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T03:39:53.924Z [ws] unauthorized conn=080014ad-23e0-4e13-880b-87ea84eb3fb4 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T03:39:53.927Z [ws] closed before connect conn=080014ad-23e0-4e13-880b-87ea84eb3fb4 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T03:39:55.295Z [ws] unauthorized conn=08a8d20c-fb81-47e8-888f-273c6a87e673 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T03:39:55.298Z [ws] closed before connect conn=08a8d20c-fb81-47e8-888f-273c6a87e673 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T03:39:57.620Z [ws] unauthorized conn=27d36c13-bf49-43b2-9aad-02c38205e5df remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T03:39:57.623Z [ws] closed before connect conn=27d36c13-bf49-43b2-9aad-02c38205e5df remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T03:40:01.563Z [ws] unauthorized conn=451512d4-0e33-4974-8c47-29472884f707 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T03:40:01.566Z [ws] closed before connect conn=451512d4-0e33-4974-8c47-29472884f707 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T03:40:03.033Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:40:08.253Z [ws] unauthorized conn=4361aa8d-4d3b-43bf-a7c6-ac84d8d3bac8 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T03:40:08.256Z [ws] closed before connect conn=4361aa8d-4d3b-43bf-a7c6-ac84d8d3bac8 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T03:40:19.626Z [ws] unauthorized conn=d6941285-4930-4489-9046-283e7603bb61 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T03:40:19.630Z [ws] closed before connect conn=d6941285-4930-4489-9046-283e7603bb61 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T03:40:34.633Z [ws] unauthorized conn=36ba2df6-21ac-40cb-8439-5e1dcdb59db5 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T03:40:34.640Z [ws] closed before connect conn=36ba2df6-21ac-40cb-8439-5e1dcdb59db5 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T03:41:04.281Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:42:05.659Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:43:06.727Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:44:07.888Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:45:09.016Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:46:10.183Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:47:11.527Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:48:12.867Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:49:14.205Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:50:15.609Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:51:16.931Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:52:18.137Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:53:19.428Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:54:20.963Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:55:22.289Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:56:23.643Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:57:24.966Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:58:26.283Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T03:59:27.385Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:00:28.554Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:01:29.785Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:02:31.004Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:03:32.995Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:04:34.330Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:05:35.677Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:06:37.012Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:07:38.357Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:08:39.802Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:09:41.079Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:10:42.467Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:11:43.763Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:12:45.082Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:13:46.422Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:14:47.748Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:15:49.089Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:16:50.432Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:17:51.771Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:18:53.114Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:19:54.522Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:20:55.832Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:21:57.489Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:22:59.009Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:24:00.348Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:25:01.729Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:26:03.094Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:27:04.438Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:28:05.934Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:29:07.083Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:30:08.172Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:31:09.262Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:33:48.129Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:34:51.425Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:35:53.290Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:36:54.647Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:37:55.971Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:38:57.266Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:39:59.047Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:41:00.369Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:42:01.775Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:43:03.029Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:43:33.619Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 495)
+2026-03-02T04:43:33.838Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 495)
+2026-03-02T04:43:33.840Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 495)
+2026-03-02T04:44:04.447Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:44:34.963Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 434)
+2026-03-02T04:44:36.462Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 432)
+2026-03-02T04:44:36.464Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 432)
+2026-03-02T04:45:40.182Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:46:12.038Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 337)
+2026-03-02T04:46:14.566Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 334)
+2026-03-02T04:46:14.568Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 334)
+2026-03-02T04:46:42.142Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:47:12.644Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 276)
+2026-03-02T04:47:12.861Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 276)
+2026-03-02T04:47:12.862Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 276)
+2026-03-02T04:47:43.565Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:48:14.831Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 214)
+2026-03-02T04:48:15.046Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 214)
+2026-03-02T04:48:15.048Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 214)
+2026-03-02T04:48:44.907Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:49:15.567Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 153)
+2026-03-02T04:49:15.865Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 153)
+2026-03-02T04:49:15.867Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 153)
+2026-03-02T04:50:17.289Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:50:47.844Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 61)
+2026-03-02T04:50:48.141Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 61)
+2026-03-02T04:50:48.142Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 61)
+2026-03-02T04:51:49.550Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:52:50.867Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:53:52.208Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:54:53.499Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:55:54.769Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:56:56.088Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:57:57.421Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T04:58:58.762Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:00:01.689Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:01:03.019Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:02:04.364Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:03:36.716Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:04:38.780Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:05:40.197Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:06:44.247Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:07:45.547Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:08:46.888Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:09:48.206Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:10:49.500Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:11:50.856Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:12:52.176Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:13:53.581Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:14:54.855Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:15:56.146Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:16:57.596Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:17:59.002Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:19:34.603Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:20:35.944Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:21:37.287Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:22:38.628Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:23:40.032Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:24:41.321Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:25:42.658Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:29:19.357Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:30:21.299Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:31:22.630Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:32:24.734Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:33:26.020Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:34:28.453Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:35:29.717Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:36:32.110Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:37:33.455Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:38:35.397Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:39:36.753Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:40:38.112Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:41:39.460Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:42:42.929Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:43:13.443Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 517)
+2026-03-02T05:43:13.652Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 517)
+2026-03-02T05:43:13.654Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 517)
+2026-03-02T05:44:16.080Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:44:46.608Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 424)
+2026-03-02T05:44:46.820Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 424)
+2026-03-02T05:44:46.821Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 424)
+2026-03-02T05:45:17.352Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:45:48.144Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 363)
+2026-03-02T05:45:48.470Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 362)
+2026-03-02T05:45:48.471Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 362)
+2026-03-02T05:46:18.886Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:46:49.456Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 301)
+2026-03-02T05:46:49.670Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 301)
+2026-03-02T05:46:49.671Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 301)
+2026-03-02T05:47:20.229Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:47:52.175Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 238)
+2026-03-02T05:47:53.224Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 237)
+2026-03-02T05:47:53.225Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 237)
+2026-03-02T05:48:22.952Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:48:53.493Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 177)
+2026-03-02T05:48:53.920Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 177)
+2026-03-02T05:48:53.921Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 177)
+2026-03-02T05:49:24.883Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:49:55.453Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 115)
+2026-03-02T05:49:55.739Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 115)
+2026-03-02T05:49:55.741Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 115)
+2026-03-02T05:50:26.278Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:50:58.800Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 52)
+2026-03-02T05:50:59.016Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 52)
+2026-03-02T05:50:59.018Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 52)
+2026-03-02T05:52:00.266Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:52:30.684Z [telegram] deleteMyCommands failed: Network request for 'deleteMyCommands' failed!
+2026-03-02T05:53:06.303Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:54:07.480Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:55:08.546Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:56:09.821Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:57:11.014Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:58:12.379Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T05:59:13.762Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:00:22.671Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:01:07.997Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:02:40.734Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:04:45.300Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:05:46.970Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:06:17.376Z [telegram] deleteMyCommands failed: Network request for 'deleteMyCommands' failed!
+2026-03-02T06:06:17.812Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:07:21.639Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:07:52.564Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:09:25.611Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:11:12.572Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:12:14.443Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:13:46.740Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:14:48.099Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:15:49.499Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:16:50.972Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:17:53.681Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:19:26.004Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:20:27.152Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:21:28.632Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:23:00.385Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:24:34.242Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:25:35.792Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:26:37.079Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:27:38.424Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:28:39.763Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:29:41.213Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:30:42.651Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:31:44.036Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:32:45.347Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:33:46.666Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:34:47.993Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:35:49.364Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:36:50.682Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:37:51.986Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:38:23.052Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:39:24.563Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:40:25.932Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:41:27.203Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:42:28.358Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:43:29.508Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:44:30.704Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:45:01.299Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 420)
+2026-03-02T06:45:01.519Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 420)
+2026-03-02T06:45:01.521Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 420)
+2026-03-02T06:45:32.127Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:46:02.642Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 359)
+2026-03-02T06:46:02.853Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 359)
+2026-03-02T06:46:02.855Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 359)
+2026-03-02T06:46:33.546Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:47:04.109Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 298)
+2026-03-02T06:47:04.532Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 297)
+2026-03-02T06:47:04.534Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 297)
+2026-03-02T06:47:05.906Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:47:36.500Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 265)
+2026-03-02T06:47:36.727Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 265)
+2026-03-02T06:47:36.729Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 265)
+2026-03-02T06:48:07.021Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:48:37.371Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 204)
+2026-03-02T06:48:37.599Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 204)
+2026-03-02T06:48:37.601Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 204)
+2026-03-02T06:49:08.141Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:49:38.448Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 143)
+2026-03-02T06:49:38.714Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 143)
+2026-03-02T06:49:38.716Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 143)
+2026-03-02T06:50:09.200Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:50:39.536Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 82)
+2026-03-02T06:50:39.751Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 82)
+2026-03-02T06:50:39.753Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 82)
+2026-03-02T06:51:10.341Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:51:40.876Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 21)
+2026-03-02T06:51:41.105Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 20)
+2026-03-02T06:51:41.106Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 20)
+2026-03-02T06:52:11.675Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:53:13.430Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:54:14.787Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:55:16.109Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:55:47.545Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:56:49.507Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:57:50.934Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:58:52.186Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T06:59:53.612Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:00:55.061Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:02:58.137Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:03:59.576Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:05:01.068Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:06:02.509Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:07:03.790Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:08:05.078Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:09:06.779Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:09:37.331Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:10:40.658Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:13:15.293Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:14:17.716Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:15:19.112Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:16:20.407Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:17:23.168Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:18:24.557Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:19:25.900Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:20:27.108Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:22:01.083Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:23:02.460Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:24:03.809Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:25:05.153Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:26:06.902Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:27:08.057Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:28:09.176Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:29:10.356Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:30:11.682Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:31:13.079Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:32:14.610Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:33:15.929Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:34:17.262Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:35:18.637Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:36:19.976Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:37:21.312Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:38:22.750Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:39:24.164Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:40:25.480Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:41:27.037Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:42:28.343Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:43:29.544Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:44:00.156Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 492)
+2026-03-02T07:44:00.462Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 492)
+2026-03-02T07:44:00.465Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 492)
+2026-03-02T07:44:30.870Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:45:01.499Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 431)
+2026-03-02T07:45:01.802Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 431)
+2026-03-02T07:45:01.803Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 431)
+2026-03-02T07:45:32.251Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:46:02.841Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 370)
+2026-03-02T07:46:03.145Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 370)
+2026-03-02T07:46:03.146Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 370)
+2026-03-02T07:46:34.355Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:47:04.893Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 308)
+2026-03-02T07:47:05.114Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 307)
+2026-03-02T07:47:05.115Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 307)
+2026-03-02T07:47:35.704Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:48:06.216Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 246)
+2026-03-02T07:48:06.444Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 246)
+2026-03-02T07:48:06.446Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 246)
+2026-03-02T07:48:36.991Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:49:07.857Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 185)
+2026-03-02T07:49:08.087Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 185)
+2026-03-02T07:49:08.089Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 185)
+2026-03-02T07:49:38.552Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:50:09.132Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 123)
+2026-03-02T07:50:09.432Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 123)
+2026-03-02T07:50:09.434Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 123)
+2026-03-02T07:50:40.657Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:51:11.196Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 61)
+2026-03-02T07:51:11.415Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 61)
+2026-03-02T07:51:11.417Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 61)
+2026-03-02T07:51:41.977Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:52:43.442Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:53:45.319Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:54:46.822Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:55:48.228Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:56:49.592Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:57:52.042Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:58:54.305Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T07:59:56.269Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:00:57.751Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:01:59.190Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:03:00.543Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:04:01.832Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:05:03.204Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:06:05.136Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:07:06.637Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:08:08.059Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:09:09.356Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:10:10.545Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:11:11.942Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:12:13.284Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:13:14.611Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:14:16.219Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:15:17.601Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:16:19.161Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:17:51.511Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:18:52.934Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:19:54.331Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:20:55.722Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:21:57.372Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:22:58.684Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:24:00.071Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:25:01.349Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:26:02.717Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:27:04.046Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:28:38.824Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:29:40.161Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:30:41.761Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:31:43.598Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:32:44.986Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:33:46.363Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:34:48.922Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:35:50.912Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:36:52.269Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:37:53.610Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:38:55.057Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:39:57.494Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:40:58.828Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:42:00.147Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:43:01.471Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:43:32.062Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 522)
+2026-03-02T08:43:33.204Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 520)
+2026-03-02T08:43:33.208Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 520)
+2026-03-02T08:44:03.561Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:44:34.137Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 460)
+2026-03-02T08:44:34.357Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 459)
+2026-03-02T08:44:34.359Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 459)
+2026-03-02T08:45:35.529Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:46:06.081Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 368)
+2026-03-02T08:46:06.299Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 367)
+2026-03-02T08:46:06.301Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 367)
+2026-03-02T08:46:36.909Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:47:09.065Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 305)
+2026-03-02T08:47:09.420Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 304)
+2026-03-02T08:47:09.421Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 304)
+2026-03-02T08:47:39.878Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:48:10.452Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 243)
+2026-03-02T08:48:10.758Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 243)
+2026-03-02T08:48:10.760Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 243)
+2026-03-02T08:48:41.482Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:49:11.997Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 182)
+2026-03-02T08:49:12.219Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 181)
+2026-03-02T08:49:12.221Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 181)
+2026-03-02T08:49:42.912Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:50:13.608Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 120)
+2026-03-02T08:50:13.848Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 120)
+2026-03-02T08:50:13.850Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 120)
+2026-03-02T08:50:44.286Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:51:14.904Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 59)
+2026-03-02T08:51:15.201Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 58)
+2026-03-02T08:51:15.203Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 58)
+2026-03-02T08:51:45.651Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:52:47.023Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:53:48.397Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:54:49.916Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:55:51.361Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:56:52.740Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:57:54.041Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T08:59:27.578Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:00:59.389Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:02:00.724Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:03:02.142Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:04:03.602Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:05:05.144Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:06:37.715Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:07:39.051Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:08:40.378Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:10:12.965Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:11:14.344Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:12:48.400Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:13:50.364Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:14:51.700Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:15:53.185Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:16:55.143Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:17:56.487Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:18:57.972Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:19:59.278Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:21:34.325Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:22:35.778Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:23:37.017Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:24:43.250Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:25:44.595Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:26:45.944Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:27:47.266Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:28:49.394Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:29:50.781Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:30:52.097Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:31:53.448Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:32:54.898Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:33:56.224Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:34:58.187Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:35:59.624Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:37:00.930Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:38:02.553Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:39:03.950Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:40:05.287Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:41:07.541Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:42:08.885Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:43:10.058Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:43:40.372Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 517)
+2026-03-02T09:43:40.596Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 517)
+2026-03-02T09:43:40.599Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 517)
+2026-03-02T09:44:11.119Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:44:41.744Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 456)
+2026-03-02T09:44:41.967Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 456)
+2026-03-02T09:44:41.969Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 456)
+2026-03-02T09:45:12.592Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:45:43.162Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 394)
+2026-03-02T09:45:43.385Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 394)
+2026-03-02T09:45:43.387Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 394)
+2026-03-02T09:46:14.032Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:46:44.594Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 333)
+2026-03-02T09:46:44.815Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 333)
+2026-03-02T09:46:44.817Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 333)
+2026-03-02T09:47:15.449Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:47:45.966Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 272)
+2026-03-02T09:47:46.187Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 271)
+2026-03-02T09:47:46.188Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 271)
+2026-03-02T09:48:16.790Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:48:47.381Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 210)
+2026-03-02T09:48:47.608Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 210)
+2026-03-02T09:48:47.610Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 210)
+2026-03-02T09:49:18.132Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:49:48.741Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 149)
+2026-03-02T09:49:48.957Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 149)
+2026-03-02T09:49:48.959Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 149)
+2026-03-02T09:50:19.463Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:50:50.024Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 88)
+2026-03-02T09:50:50.276Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 87)
+2026-03-02T09:50:50.277Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 87)
+2026-03-02T09:51:20.728Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:51:51.326Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 26)
+2026-03-02T09:51:51.621Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 26)
+2026-03-02T09:51:51.623Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 26)
+2026-03-02T09:52:22.089Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:53:23.505Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:54:24.887Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:55:26.257Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:56:27.417Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:57:28.564Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T09:59:02.737Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:00:35.758Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:01:37.178Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:02:38.602Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:03:40.060Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:05:12.440Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:06:13.866Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:07:15.888Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:08:17.181Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:09:18.462Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:10:19.856Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:11:21.164Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:12:22.514Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:13:23.834Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:14:25.209Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:15:26.548Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:16:27.705Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:17:28.826Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:18:29.967Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:19:31.121Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:20:32.540Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:21:33.867Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:22:35.230Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:23:36.524Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:24:37.866Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:25:39.434Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:26:40.766Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:27:42.217Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:28:43.549Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:29:45.095Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:30:46.451Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:31:47.787Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:32:49.138Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:33:16.922Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:33:50.472Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:34:18.256Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:34:51.802Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:35:17.246Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:35:17.249Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:35:19.323Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:35:53.132Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:36:18.567Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:36:18.570Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:36:20.679Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:36:54.455Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:37:19.429Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:37:19.431Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:37:21.991Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (504: Gateway Timeout)
+2026-03-02T10:37:55.798Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:38:57.202Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:39:58.532Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:40:59.878Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:42:01.239Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:43:02.515Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:44:03.888Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:44:34.476Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 468)
+2026-03-02T10:44:34.775Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 468)
+2026-03-02T10:44:34.777Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 468)
+2026-03-02T10:45:05.228Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:45:35.821Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 407)
+2026-03-02T10:45:36.119Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 407)
+2026-03-02T10:45:36.121Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 407)
+2026-03-02T10:46:06.590Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:46:36.938Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 346)
+2026-03-02T10:46:37.162Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 345)
+2026-03-02T10:46:37.164Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 345)
+2026-03-02T10:47:07.711Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:47:38.030Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 285)
+2026-03-02T10:47:38.279Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 284)
+2026-03-02T10:47:38.280Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 284)
+2026-03-02T10:48:08.784Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:48:39.099Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 224)
+2026-03-02T10:48:39.324Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 223)
+2026-03-02T10:48:39.326Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 223)
+2026-03-02T10:49:09.911Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:49:40.238Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 162)
+2026-03-02T10:49:40.465Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 162)
+2026-03-02T10:49:40.467Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 162)
+2026-03-02T10:50:11.003Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:50:41.582Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 101)
+2026-03-02T10:50:41.809Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 101)
+2026-03-02T10:50:41.811Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 101)
+2026-03-02T10:51:12.524Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:51:43.121Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 40)
+2026-03-02T10:51:43.368Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 39)
+2026-03-02T10:51:43.370Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 39)
+2026-03-02T10:52:13.923Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:53:15.424Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:54:16.852Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:55:18.215Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:56:19.564Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:57:20.940Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:58:22.365Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T10:59:23.805Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:00:25.174Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:01:26.655Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:02:27.776Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:03:59.470Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:05:00.893Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:06:02.237Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:07:03.630Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:08:04.974Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:09:06.301Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:10:07.400Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:11:08.612Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:12:09.767Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:13:10.809Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:14:12.177Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:15:13.516Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:16:14.874Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:17:16.194Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:18:17.544Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:19:19.029Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:20:20.318Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:21:21.660Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:22:22.994Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:23:24.384Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:24:25.674Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:25:26.957Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:26:58.682Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:28:00.012Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:29:01.335Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:30:02.687Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:31:04.030Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:32:05.372Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:33:06.714Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:34:07.802Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:35:08.905Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:36:09.986Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:37:11.186Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:38:12.528Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:39:13.870Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:40:15.229Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:41:16.592Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:42:17.947Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:43:19.298Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:43:49.838Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 536)
+2026-03-02T11:43:50.139Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 536)
+2026-03-02T11:43:50.141Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 536)
+2026-03-02T11:44:20.606Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:44:51.192Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 474)
+2026-03-02T11:44:51.481Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 474)
+2026-03-02T11:44:51.483Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 474)
+2026-03-02T11:45:21.945Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:45:52.525Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 413)
+2026-03-02T11:45:52.824Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 413)
+2026-03-02T11:45:52.826Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 413)
+2026-03-02T11:46:23.300Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:46:53.870Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 352)
+2026-03-02T11:46:54.166Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 352)
+2026-03-02T11:46:54.167Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 352)
+2026-03-02T11:47:24.631Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:47:55.218Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 290)
+2026-03-02T11:47:55.508Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 290)
+2026-03-02T11:47:55.510Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 290)
+2026-03-02T11:48:25.946Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:48:56.574Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 229)
+2026-03-02T11:48:56.852Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 229)
+2026-03-02T11:48:56.853Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 229)
+2026-03-02T11:49:57.932Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:50:28.512Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 137)
+2026-03-02T11:50:28.823Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 137)
+2026-03-02T11:50:28.825Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 137)
+2026-03-02T11:50:59.285Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:51:29.849Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 76)
+2026-03-02T11:51:30.075Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 76)
+2026-03-02T11:51:30.077Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 76)
+2026-03-02T11:52:00.633Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:52:31.290Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 14)
+2026-03-02T11:52:31.511Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 14)
+2026-03-02T11:52:31.512Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 14)
+2026-03-02T11:53:02.083Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:54:03.415Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:55:04.906Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:56:06.248Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:57:07.425Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:58:08.485Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T11:59:09.795Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:00:10.936Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:01:12.286Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:02:13.808Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:03:15.171Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:04:16.555Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:05:17.851Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:06:19.178Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:07:20.537Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:08:21.881Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:09:23.240Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:10:24.546Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:11:25.804Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:12:26.995Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:13:28.186Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:14:29.343Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:15:30.495Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:16:31.840Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:17:33.182Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:18:34.608Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:19:35.927Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:20:37.245Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:21:38.618Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:22:39.959Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:23:41.259Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:24:42.681Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:25:43.970Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:26:45.300Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:27:46.645Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:28:48.194Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:29:49.601Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:30:50.886Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:31:53.020Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:32:54.576Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:33:55.886Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:34:57.201Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:35:58.552Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:36:59.919Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:38:01.241Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:39:02.705Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:40:04.291Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:41:05.740Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:42:07.015Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:43:08.196Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:44:09.322Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:44:39.637Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 503)
+2026-03-02T12:44:39.859Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 503)
+2026-03-02T12:44:39.860Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 503)
+2026-03-02T12:45:10.531Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:45:41.114Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 441)
+2026-03-02T12:45:41.408Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 441)
+2026-03-02T12:45:41.410Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 441)
+2026-03-02T12:46:11.664Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:46:42.513Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 380)
+2026-03-02T12:46:42.809Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 380)
+2026-03-02T12:46:42.810Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 380)
+2026-03-02T12:47:13.252Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:47:43.795Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 319)
+2026-03-02T12:47:44.093Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 319)
+2026-03-02T12:47:44.096Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 319)
+2026-03-02T12:48:14.585Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:48:45.129Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 257)
+2026-03-02T12:48:45.438Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 257)
+2026-03-02T12:48:45.440Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 257)
+2026-03-02T12:49:15.942Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:49:46.493Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 196)
+2026-03-02T12:49:46.779Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 196)
+2026-03-02T12:49:46.780Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 196)
+2026-03-02T12:50:17.243Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:50:47.946Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 135)
+2026-03-02T12:50:48.166Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 134)
+2026-03-02T12:50:48.168Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 134)
+2026-03-02T12:51:18.591Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:51:49.158Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 73)
+2026-03-02T12:51:49.461Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 73)
+2026-03-02T12:51:49.463Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 73)
+2026-03-02T12:52:19.911Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:52:50.505Z [telegram] deleteMyCommands failed: Call to 'deleteMyCommands' failed! (429: Too Many Requests: retry after 12)
+2026-03-02T12:52:50.802Z [telegram] setMyCommands failed: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 12)
+2026-03-02T12:52:50.804Z [telegram] command sync failed: GrammyError: Call to 'setMyCommands' failed! (429: Too Many Requests: retry after 12)
+2026-03-02T12:53:21.315Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:54:22.607Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:55:23.930Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:56:25.303Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:57:26.604Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:58:27.789Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T12:59:28.941Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:00:30.079Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:01:31.181Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:02:32.512Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:03:33.862Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:04:35.193Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:05:36.538Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:06:37.978Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:07:39.520Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:08:40.834Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:09:42.182Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:10:43.543Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:11:44.865Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:12:46.210Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:13:47.554Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:14:48.901Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:15:50.235Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:16:51.586Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:17:52.927Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:18:54.271Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:19:55.617Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:20:56.962Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:21:58.315Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:22:59.655Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:24:01.063Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:25:02.393Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:26:04.205Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:27:05.573Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:28:06.933Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:29:08.241Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:30:09.316Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:31:10.482Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:32:42.215Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T13:33:43.580Z [telegram] getUpdates conflict: Call to 'getUpdates' failed! (409: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running); retrying in 30s.
+2026-03-02T15:29:25.984Z [telegram] network error: Network request for 'getUpdates' failed!; retrying in 30s.
+2026-03-02T15:29:56.093Z [telegram] deleteMyCommands failed: Network request for 'deleteMyCommands' failed!
+2026-03-02T15:29:56.098Z [telegram] setMyCommands failed: Network request for 'setMyCommands' failed!
+2026-03-02T15:29:56.098Z [telegram] command sync failed: HttpError: Network request for 'setMyCommands' failed!
+2026-03-02T16:14:58.928Z [ws] unauthorized conn=c02da5d9-fc8f-4615-8d05-53885d0616b1 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:14:58.933Z [ws] closed before connect conn=c02da5d9-fc8f-4615-8d05-53885d0616b1 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:14:59.743Z [ws] unauthorized conn=f06502cd-1f92-4dad-a271-a214588440e5 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:14:59.746Z [ws] closed before connect conn=f06502cd-1f92-4dad-a271-a214588440e5 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:15:01.112Z [ws] unauthorized conn=6f6c68ae-36b9-4056-a28e-daa9579fbdff remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:15:01.114Z [ws] closed before connect conn=6f6c68ae-36b9-4056-a28e-daa9579fbdff remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:15:03.433Z [ws] unauthorized conn=3c5080ce-1a4d-42e3-aaca-0fe04f20c137 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:15:03.435Z [ws] closed before connect conn=3c5080ce-1a4d-42e3-aaca-0fe04f20c137 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:15:07.374Z [ws] unauthorized conn=542319b2-0817-4fd9-bf08-a081f5139e68 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:15:07.376Z [ws] closed before connect conn=542319b2-0817-4fd9-bf08-a081f5139e68 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:15:14.067Z [ws] unauthorized conn=5fc3f01b-e896-449b-b1c8-2625200f6b5f remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:15:14.070Z [ws] closed before connect conn=5fc3f01b-e896-449b-b1c8-2625200f6b5f remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:15:25.434Z [ws] unauthorized conn=e5ce5e13-055f-497a-b290-714276527c8a remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:15:25.435Z [ws] closed before connect conn=e5ce5e13-055f-497a-b290-714276527c8a remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:15:40.447Z [ws] unauthorized conn=1a5055d7-e6ae-48ba-b4c4-564d6fcdf88f remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:15:40.450Z [ws] closed before connect conn=1a5055d7-e6ae-48ba-b4c4-564d6fcdf88f remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:15:55.459Z [ws] unauthorized conn=cb63faae-ebb6-49f4-9ec2-453b31123333 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:15:55.462Z [ws] closed before connect conn=cb63faae-ebb6-49f4-9ec2-453b31123333 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:16:10.469Z [ws] unauthorized conn=ec8772f3-b39e-4f00-bb02-4862f03cc2c8 remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:16:10.472Z [ws] closed before connect conn=ec8772f3-b39e-4f00-bb02-4862f03cc2c8 remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T16:16:25.480Z [ws] unauthorized conn=d29f9be8-72b8-49a4-b115-f53f6f8750ea remote=127.0.0.1 client=openclaw-control-ui webchat vdev reason=token_missing
+2026-03-02T16:16:25.483Z [ws] closed before connect conn=d29f9be8-72b8-49a4-b115-f53f6f8750ea remote=127.0.0.1 fwd=n/a origin=http://127.0.0.1:18789 host=127.0.0.1:18789 ua=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 code=1008 reason=unauthorized: gateway token missing (open the dashboard URL and paste the token in Control UI settings)
+2026-03-02T11:54:31.804-05:00 [tools] session_status failed: Model "anthropic/claude-opus-4-5" is not allowed.
+2026-03-02T11:54:34.473-05:00 [tools] session_status failed: Model "anthropic/claude-opus-4" is not allowed.
+2026-03-02T11:55:06.217-05:00 [tools] edit failed: File not found: /Users/sylvain/.openclaw/openclaw.json
+2026-03-02T17:01:13.862Z [agent/embedded] embedded run agent end: runId=c102d71b-f7cf-42df-b7e8-cdadd7dbf94c isError=true error=The AI service is temporarily overloaded. Please try again in a moment.
+2026-03-02T17:01:31.003Z [agent/embedded] embedded run agent end: runId=c102d71b-f7cf-42df-b7e8-cdadd7dbf94c isError=true error=The AI service is temporarily overloaded. Please try again in a moment.
+2026-03-02T18:03:34.789Z [config/schema] possibly sensitive key found: (secrets)
+2026-03-02T18:03:34.790Z [config/schema] possibly sensitive key found: (secrets.providers)
+2026-03-02T18:03:34.791Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-02T18:03:34.791Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-02T18:03:34.792Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-02T18:03:34.792Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowlist)
+2026-03-02T18:03:34.793Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowlist[])
+2026-03-02T18:03:34.793Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-02T18:03:34.793Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-02T18:03:34.794Z [config/schema] possibly sensitive key found: (secrets.providers.*.path)
+2026-03-02T18:03:34.794Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-02T18:03:34.795Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-02T18:03:34.795Z [config/schema] possibly sensitive key found: (secrets.providers.*.mode)
+2026-03-02T18:03:34.796Z [config/schema] possibly sensitive key found: (secrets.providers.*.timeoutMs)
+2026-03-02T18:03:34.796Z [config/schema] possibly sensitive key found: (secrets.providers.*.maxBytes)
+2026-03-02T18:03:34.796Z [config/schema] possibly sensitive key found: (secrets.providers.*)
+2026-03-02T18:03:34.797Z [config/schema] possibly sensitive key found: (secrets.providers.*.source)
+2026-03-02T18:03:34.797Z [config/schema] possibly sensitive key found: (secrets.providers.*.command)
+2026-03-02T18:03:34.798Z [config/schema] possibly sensitive key found: (secrets.providers.*.args)
+2026-03-02T18:03:34.798Z [config/schema] possibly sensitive key found: (secrets.providers.*.args[])
+2026-03-02T18:03:34.799Z [config/schema] possibly sensitive key found: (secrets.providers.*.timeoutMs)
+2026-03-02T18:03:34.799Z [config/schema] possibly sensitive key found: (secrets.providers.*.noOutputTimeoutMs)
+2026-03-02T18:03:34.799Z [config/schema] possibly sensitive key found: (secrets.providers.*.maxOutputBytes)
+2026-03-02T18:03:34.800Z [config/schema] possibly sensitive key found: (secrets.providers.*.jsonOnly)
+2026-03-02T18:03:34.800Z [config/schema] possibly sensitive key found: (secrets.providers.*.env)
+2026-03-02T18:03:34.800Z [config/schema] possibly sensitive key found: (secrets.providers.*.env.*)
+2026-03-02T18:03:34.801Z [config/schema] possibly sensitive key found: (secrets.providers.*.passEnv)
+2026-03-02T18:03:34.801Z [config/schema] possibly sensitive key found: (secrets.providers.*.passEnv[])
+2026-03-02T18:03:34.802Z [config/schema] possibly sensitive key found: (secrets.providers.*.trustedDirs)
+2026-03-02T18:03:34.802Z [config/schema] possibly sensitive key found: (secrets.providers.*.trustedDirs[])
+2026-03-02T18:03:34.803Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowInsecurePath)
+2026-03-02T18:03:34.803Z [config/schema] possibly sensitive key found: (secrets.providers.*.allowSymlinkCommand)
+2026-03-02T18:03:34.803Z [config/schema] possibly sensitive key found: (secrets.defaults)
+2026-03-02T18:03:34.804Z [config/schema] possibly sensitive key found: (secrets.defaults.env)
+2026-03-02T18:03:34.804Z [config/schema] possibly sensitive key found: (secrets.defaults.file)
+2026-03-02T18:03:34.804Z [config/schema] possibly sensitive key found: (secrets.defaults.exec)
+2026-03-02T18:03:34.804Z [config/schema] possibly sensitive key found: (secrets.resolution)
+2026-03-02T18:03:34.805Z [config/schema] possibly sensitive key found: (secrets.resolution.maxProviderConcurrency)
+2026-03-02T18:03:34.805Z [config/schema] possibly sensitive key found: (secrets.resolution.maxRefsPerProvider)
+2026-03-02T18:03:34.805Z [config/schema] possibly sensitive key found: (secrets.resolution.maxBatchBytes)
+2026-03-02T18:03:34.806Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-02T18:03:34.806Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-02T18:03:34.807Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-02T18:03:34.807Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-02T18:03:34.807Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-02T18:03:34.808Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-02T18:03:34.808Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.source)
+2026-03-02T18:03:34.808Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.provider)
+2026-03-02T18:03:34.808Z [config/schema] possibly sensitive key found: (models.providers.*.apiKey.id)
+2026-03-02T18:03:34.929Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-02T18:03:34.929Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-02T18:03:34.929Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
+2026-03-02T18:03:34.930Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-02T18:03:34.930Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-02T18:03:34.930Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
+2026-03-02T18:03:34.931Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.source)
+2026-03-02T18:03:34.931Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.provider)
+2026-03-02T18:03:34.931Z [config/schema] possibly sensitive key found: (skills.entries.*.apiKey.id)
