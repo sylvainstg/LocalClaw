@@ -1,8 +1,12 @@
 {
+  "meta": {
+    "lastTouchedVersion": "2026.3.13",
+    "lastTouchedAt": "2026-03-25T16:10:10.402Z"
+  },
   "wizard": {
-    "lastRunAt": "2026-03-02T03:31:31.246Z",
-    "lastRunVersion": "2026.2.26",
-    "lastRunCommand": "onboard",
+    "lastRunAt": "2026-03-10T01:36:03.045Z",
+    "lastRunVersion": "2026.3.8",
+    "lastRunCommand": "doctor",
     "lastRunMode": "local"
   },
   "auth": {
@@ -13,10 +17,130 @@
       }
     }
   },
+  "acp": {
+    "enabled": true,
+    "dispatch": {
+      "enabled": true
+    },
+    "backend": "acpx",
+    "defaultAgent": "claude-code",
+    "allowedAgents": [
+      "claude-code",
+      "claude"
+    ],
+    "maxConcurrentSessions": 4
+  },
+  "models": {
+    "providers": {
+      "litellm": {
+        "baseUrl": "http://localhost:4000",
+        "apiKey": "sk-litellm-openclaw",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "gemini-flash",
+            "name": "Gemini Flash",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 1000000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "gemini-pro",
+            "name": "Gemini Pro",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 1000000,
+            "maxTokens": 65536
+          },
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6",
+            "reasoning": true,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": 32768
+          },
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude Sonnet 4.6",
+            "reasoning": false,
+            "input": [
+              "text",
+              "image"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": 16384
+          },
+          {
+            "id": "claude-haiku-3-5",
+            "name": "Claude Haiku 3.5",
+            "reasoning": false,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 200000,
+            "maxTokens": 8192
+          }
+        ]
+      },
+      "headroom": {
+        "baseUrl": "http://127.0.0.1:8787",
+        "apiKey": "not-needed",
+        "api": "anthropic-messages",
+        "models": [
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude Sonnet 4.6 (headroom)",
+            "reasoning": false,
+            "input": ["text", "image"],
+            "contextWindow": 200000,
+            "maxTokens": 16384
+          },
+          {
+            "id": "claude-opus-4-6",
+            "name": "Claude Opus 4.6 (headroom)",
+            "reasoning": false,
+            "input": ["text", "image"],
+            "contextWindow": 200000,
+            "maxTokens": 16384
+          }
+        ]
+      }
+    }
+  },
   "agents": {
     "defaults": {
       "model": {
-        "primary": "anthropic/claude-opus-4-6"
+        "primary": "litellm/gemini-flash"
+      },
+      "models": {
+        "litellm/claude-opus-4-6": {
+          "alias": "puissant"
+        },
+        "litellm/claude-sonnet-4-6": {
+          "alias": "rapide"
+        },
+        "litellm/claude-haiku-3-5": {
+          "alias": "abordable"
+        },
+        "litellm/gemini-flash": {
+          "alias": "vif"
+        },
+        "litellm/gemini-pro": {
+          "alias": "précis"
+        },
+        "headroom/claude-sonnet-4-6": {
+          "alias": "orchestrateur"
+        }
       },
       "workspace": "/Users/sylvain/.openclaw/workspace",
       "compaction": {
@@ -25,20 +149,69 @@
       "maxConcurrent": 4,
       "subagents": {
         "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "construction",
+        "name": "Bâtisseur",
+        "workspace": "/Users/sylvain/.openclaw/workspace-construction-v2",
+        "model": "litellm/gemini-flash",
+        "identity": {
+          "name": "Bâtisseur",
+          "emoji": "🏗️"
+        }
       },
-      "models": {
-        "anthropic/claude-opus-4-6": {
-          "alias": "puissant"
-        },
-        "anthropic/claude-sonnet-4-6": {
-          "alias": "rapide"
-        },
-        "anthropic/claude-haiku-3-5": {
-          "alias": "abordable"
+      {
+        "id": "main",
+        "default": true,
+        "workspace": "/Users/sylvain/.openclaw/workspace",
+        "model": "litellm/gemini-flash",
+        "identity": {
+          "name": "Synapse",
+          "emoji": "🧠"
         }
       }
+    ]
+  },
+  "tools": {
+    "media": {
+      "audio": {
+        "language": "fr",
+        "models": [
+          {
+            "capabilities": [
+              "audio"
+            ],
+            "type": "cli",
+            "command": "whisper",
+            "args": [
+              "--model",
+              "turbo",
+              "--language",
+              "fr",
+              "--output_format",
+              "txt"
+            ]
+          }
+        ],
+        "echoTranscript": true,
+        "echoFormat": "📝 \"{transcript}\""
+      }
+    },
+    "sessions": {
+      "visibility": "all"
     }
   },
+  "bindings": [
+    {
+      "agentId": "construction",
+      "match": {
+        "channel": "telegram",
+        "accountId": "construction"
+      }
+    }
+  ],
   "messages": {
     "ackReactionScope": "group-mentions"
   },
@@ -66,6 +239,9 @@
         },
         "boot-md": {
           "enabled": true
+        },
+        "message-tracker": {
+          "enabled": true
         }
       }
     }
@@ -74,9 +250,30 @@
     "telegram": {
       "enabled": true,
       "dmPolicy": "pairing",
-      "botToken": "8450836625:AAHghq-vfasppPFjmy7J-XgUPD8pXF0orxs",
       "groupPolicy": "allowlist",
-      "streaming": "off"
+      "streaming": "partial",
+      "accounts": {
+        "construction": {
+          "dmPolicy": "allowlist",
+          "botToken": "8205974228:AAFFUNZ3YDumPHOQEqS4lbQIWqiqRTNI7LU",
+          "allowFrom": [
+            "8351648514",
+            "8606454174"
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "off"
+        },
+        "default": {
+          "enabled": false,
+          "dmPolicy": "pairing",
+          "botToken": "8450836625:AAHghq-vfasppPFjmy7J-XgUPD8pXF0orxs",
+          "allowFrom": [
+            "8351648514"
+          ],
+          "groupPolicy": "allowlist",
+          "streaming": "off"
+        }
+      }
     }
   },
   "gateway": {
@@ -106,11 +303,10 @@
     "entries": {
       "telegram": {
         "enabled": true
+      },
+      "acpx": {
+        "enabled": true
       }
     }
-  },
-  "meta": {
-    "lastTouchedVersion": "2026.2.26",
-    "lastTouchedAt": "2026-03-02T03:31:31.293Z"
   }
 }
