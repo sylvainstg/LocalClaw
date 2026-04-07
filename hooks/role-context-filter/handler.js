@@ -205,18 +205,32 @@ function generateContextMd(caller, filteredData) {
   return lines.join("\n");
 }
 
-// ── Audit ───────────────────────────────────────────────────────────────────
+// ── Audit (with de-duplication on state change) ─────────────────────────────
 
-function logAudit(caller, taskCount) {
+const lastStateByUser = new Map(); // user_id → fingerprint
+
+function logAudit(caller, taskCount, contractType, filteredData) {
+  const budgetVisible = !!filteredData.budget;
+  const teamVisible = !!filteredData.team;
+  const purchasesVisible = !!filteredData.purchases;
+
+  // Fingerprint to detect changes
+  const fingerprint = `${taskCount}|${budgetVisible}|${teamVisible}|${purchasesVisible}|${contractType}`;
+  const previous = lastStateByUser.get(String(caller.telegramId));
+  if (previous === fingerprint) return; // No change → skip log
+  lastStateByUser.set(String(caller.telegramId), fingerprint);
+
   const entry = {
     ts: new Date().toISOString(),
     event: "bootstrap_filter",
     user_id: caller.telegramId,
     user_name: caller.name,
     role: caller.persona,
+    contract_type: contractType,
     tasks_visible: taskCount,
-    budget_visible: caller.persona === "gc" || caller.persona === "owner",
-    team_visible: caller.persona === "gc",
+    budget_visible: budgetVisible,
+    team_visible: teamVisible,
+    purchases_visible: purchasesVisible,
   };
   try {
     appendFileSync(path.join(DATA_DIR, "permission-audit.jsonl"), JSON.stringify(entry) + "\n", "utf-8");
@@ -272,7 +286,7 @@ const handler = async (event) => {
     }
 
     // Audit
-    logAudit(caller, filteredData.schedule.tasks.length);
+    logAudit(caller, filteredData.schedule.tasks.length, contractType, filteredData);
 
   } catch (err) {
     // Silent — don't break agent bootstrap
