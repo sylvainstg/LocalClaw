@@ -1,0 +1,55 @@
+model_list:
+  - model_name: gemini-flash
+    litellm_params:
+      model: gemini/gemini-2.5-flash
+      api_key: os.environ/GEMINI_API_KEY
+      tpm: 900000      # Stay under 1M TPM limit (buffer of 10%)
+      rpm: 1000        # Max requests per minute
+
+  - model_name: gemini-pro
+    litellm_params:
+      model: gemini/gemini-2.5-pro
+      api_key: os.environ/GEMINI_API_KEY
+      tpm: 100000
+      rpm: 100
+
+  - model_name: claude-opus-4-6
+    litellm_params:
+      model: anthropic/claude-opus-4-6
+      api_key: os.environ/ANTHROPIC_API_KEY
+      tpm: 200000
+      rpm: 1000
+
+  - model_name: claude-sonnet-4-6
+    litellm_params:
+      model: anthropic/claude-sonnet-4-6
+      api_key: os.environ/ANTHROPIC_API_KEY
+      tpm: 200000
+      rpm: 1000
+
+  - model_name: claude-haiku-3-5
+    litellm_params:
+      model: anthropic/claude-haiku-4-5-20251001
+      api_key: os.environ/ANTHROPIC_API_KEY
+      tpm: 200000
+      rpm: 1000
+
+  - model_name: gpt-oss-20b
+    litellm_params:
+      model: ollama/gpt-oss:20b
+      api_base: http://localhost:11434
+      tpm: 1000000
+      rpm: 1000
+
+general_settings:
+  master_key: sk-litellm-openclaw
+  port: 4000
+
+litellm_settings:
+  callbacks: cost_logger.proxy_handler_instance
+  # Retry on rate limit errors
+  num_retries: 3
+  request_timeout: 120
+  # Fallback chain: if gemini-flash fails (rate limit, down), try local gpt-oss
+  fallbacks:
+    - gemini-flash: ["gpt-oss-20b"]
