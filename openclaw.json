@@ -1,7 +1,7 @@
 {
   "meta": {
-    "lastTouchedVersion": "2026.3.13",
-    "lastTouchedAt": "2026-03-25T16:10:10.402Z"
+    "lastTouchedVersion": "2026.4.5",
+    "lastTouchedAt": "2026-04-06T22:52:35.045Z"
   },
   "wizard": {
     "lastRunAt": "2026-03-10T01:36:03.045Z",
@@ -89,6 +89,16 @@
             ],
             "contextWindow": 200000,
             "maxTokens": 8192
+          },
+          {
+            "id": "gpt-oss-20b",
+            "name": "GPT-OSS 20B (local)",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "contextWindow": 131072,
+            "maxTokens": 8192
           }
         ]
       },
@@ -101,7 +111,10 @@
             "id": "claude-sonnet-4-6",
             "name": "Claude Sonnet 4.6 (headroom)",
             "reasoning": false,
-            "input": ["text", "image"],
+            "input": [
+              "text",
+              "image"
+            ],
             "contextWindow": 200000,
             "maxTokens": 16384
           },
@@ -109,7 +122,10 @@
             "id": "claude-opus-4-6",
             "name": "Claude Opus 4.6 (headroom)",
             "reasoning": false,
-            "input": ["text", "image"],
+            "input": [
+              "text",
+              "image"
+            ],
             "contextWindow": 200000,
             "maxTokens": 16384
           }
@@ -131,6 +147,9 @@
         },
         "litellm/claude-haiku-3-5": {
           "alias": "abordable"
+        },
+        "litellm/gpt-oss-20b": {
+          "alias": "prive"
         },
         "litellm/gemini-flash": {
           "alias": "vif"
@@ -184,13 +203,13 @@
               "audio"
             ],
             "type": "cli",
-            "command": "whisper",
+            "command": "mlx_whisper",
             "args": [
               "--model",
-              "turbo",
+              "mlx-community/whisper-large-v3-turbo",
               "--language",
               "fr",
-              "--output_format",
+              "--output-format",
               "txt"
             ]
           }
@@ -305,6 +324,9 @@
         "enabled": true
       },
       "acpx": {
+        "enabled": true
+      },
+      "litellm": {
         "enabled": true
       }
     }
