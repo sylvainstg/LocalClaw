@@ -1,4 +1,47 @@
 {
   "version": 1,
-  "jobs": []
+  "jobs": [
+    {
+      "id": "owner-digest-daily",
+      "agentId": "construction",
+      "name": "Point quotidien au propriétaire",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * 1-6",
+        "tz": "America/Toronto"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "[DAILY_OWNER_DIGEST] Prépare le point quotidien pour le propriétaire selon la Règle #6 de CLAUDE.md.",
+        "timeoutSeconds": 60
+      },
+      "state": {
+        "nextRunAtMs": 1775685600000
+      }
+    },
+    {
+      "id": "owner-digest-weekly",
+      "agentId": "construction",
+      "name": "Point hebdomadaire au propriétaire",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * 0",
+        "tz": "America/Toronto"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "[WEEKLY_OWNER_DIGEST] Prépare le point hebdomadaire pour le propriétaire selon la Règle #6 de CLAUDE.md.",
+        "timeoutSeconds": 90
+      },
+      "state": {
+        "nextRunAtMs": 1776031200000
+      }
+    }
+  ]
 }
