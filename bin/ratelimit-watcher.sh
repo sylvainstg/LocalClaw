@@ -102,6 +102,72 @@ check_session() {
   fi
 }
 
+# ── Test mode (--test) ──────────────────────────────────────────────────────
+if [ "${1:-}" = "--test" ]; then
+  TEST_SESSION="rltest-synapse"
+  TEST_TOKEN="${SESSIONS_CONFIG[0]#*:}"
+  TEST_FLAG="${STATE_DIR}/${TEST_SESSION}.blocked"
+
+  echo "━━━ TEST MODE ━━━"
+  echo ""
+
+  # Cleanup any previous test state
+  rm -f "$TEST_FLAG"
+  tmux kill-session -t "$TEST_SESSION" 2>/dev/null || true
+
+  # 1. Create fake tmux session with rate-limit menu
+  echo "1. Creating fake tmux session with rate-limit menu..."
+  tmux new-session -d -s "$TEST_SESSION" -x 200 -y 50
+  tmux send-keys -t "$TEST_SESSION" "clear && printf '%s\n' \"You've hit your limit · resets 5pm (America/Toronto)\" '' '/rate-limit-options' '' 'What do you want to do?' '' '  ❯ 1. Stop and wait for limit to reset' '  2. Switch to extra usage' '  3. Upgrade your plan'" Enter
+  sleep 1
+  echo "   Session created. Pane content:"
+  tmux capture-pane -p -t "$TEST_SESSION" | sed 's/^/     /'
+  echo ""
+
+  # 2. Run detection (should notify + send Enter)
+  echo "2. Running check_session (should detect, notify, send Enter)..."
+  check_session "$TEST_SESSION" "$TEST_TOKEN"
+  echo ""
+
+  # 3. Verify flag file was created
+  if [ -f "$TEST_FLAG" ]; then
+    echo "   ✅ Flag file created: $(cat "$TEST_FLAG")"
+  else
+    echo "   ❌ Flag file NOT created"
+  fi
+  echo ""
+
+  # 4. Clear the rate-limit menu to simulate reset
+  echo "3. Simulating rate-limit cleared (clear the tmux pane)..."
+  tmux send-keys -t "$TEST_SESSION" "clear && echo 'Normal prompt here'" Enter
+  sleep 1
+
+  # 5. Run detection again (should notify resume + remove flag)
+  echo "4. Running check_session again (should detect reset and notify resume)..."
+  check_session "$TEST_SESSION" "$TEST_TOKEN"
+  echo ""
+
+  # 6. Verify flag removed
+  if [ ! -f "$TEST_FLAG" ]; then
+    echo "   ✅ Flag file removed"
+  else
+    echo "   ❌ Flag file still present"
+  fi
+  echo ""
+
+  # 7. Cleanup
+  echo "5. Cleanup..."
+  tmux kill-session -t "$TEST_SESSION" 2>/dev/null || true
+  rm -f "$TEST_FLAG"
+
+  echo ""
+  echo "━━━ TEST COMPLETE ━━━"
+  echo "Check your Telegram — you should have received 2 messages:"
+  echo "  1. ⏸️ file... reset à 5pm (~20h)"
+  echo "  2. ▶️ Je reprends..."
+  exit 0
+fi
+
 log "Rate-limit watcher started (interval: ${POLL_INTERVAL}s)"
 
 while true; do
