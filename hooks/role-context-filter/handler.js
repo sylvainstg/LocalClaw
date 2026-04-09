@@ -101,9 +101,11 @@ function filterPurchases(purchases, persona, contractType) {
   if (!purchases) return null;
   if (persona === "gc") return purchases;
   if (persona === "owner") {
-    if (contractType === "cost-plus") return purchases; // Full transparency
+    if (contractType === "cost-plus") return purchases; // Full transparency including soumissions + invoices
+    // Fixed-price: pas de soumissions, pas de factures, pas de variance — le client paie un montant fixe
     const items = (purchases.items || []).map(p => ({
       id: p.id, description: p.description, room: p.room, status: p.status, qty: p.qty,
+      priceEstimate: p.priceEstimate,
     }));
     return { items };
   }
