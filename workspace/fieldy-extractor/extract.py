@@ -35,6 +35,12 @@ LOG_FILE = OPENCLAW / "logs" / "fieldy-extractor.log"
 CLAUDE_BIN = HOME / ".nvm" / "versions" / "node" / "v24.11.1" / "bin" / "claude"
 
 WORKSPACE = OPENCLAW / "workspace"  # Synapse workspace for the -p session
+# Deliberately outside WORKSPACE: running the extraction call from the Synapse
+# workspace pulled in workspace/CLAUDE.md (full persona — voice-message rules,
+# memory-tool instructions, startup file reads) on every batch run, inflating a
+# simple JSON-extraction call into a multi-file-read agent session and blowing
+# past the 120s timeout. The prompt is self-contained; it doesn't need that context.
+EXTRACTION_CWD = OPENCLAW / ".fieldy-extraction-cwd"
 WEARER = "sylvain"
 GC_CHAT_ID = "8351648514"
 CONTEXT_WINDOW = 30  # last N transcriptions to include (covers ~15 min of audio)
@@ -145,15 +151,25 @@ def get_pending_store_for_project(project_id: str) -> Path:
 
 
 def run_extraction(context_block: str) -> dict | None:
+    EXTRACTION_CWD.mkdir(parents=True, exist_ok=True)
     prompt = PROMPT_FILE.read_text()
     prompt = prompt.replace("{TRANSCRIPTIONS_BLOCK}", context_block)
     prompt = prompt.replace("{PROJECTS_BLOCK}", build_projects_block())
     try:
         result = subprocess.run(
-            [str(CLAUDE_BIN), "-p", "--dangerously-skip-permissions", prompt],
+            [
+                str(CLAUDE_BIN), "-p", "--dangerously-skip-permissions",
+                # The prompt is fully self-contained (transcriptions + projects block
+                # already substituted) — this is a narrow text-to-JSON completion, not
+                # an interactive Synapse session. Keep it that way:
+                "--tools", "",             # no tool use needed
+                "--strict-mcp-config",     # no MCP servers to spin up
+                "--effort", "medium",      # skip the global high/xhigh thinking overhead
+                prompt,
+            ],
             capture_output=True,
             timeout=120,
-            cwd=str(WORKSPACE),
+            cwd=str(EXTRACTION_CWD),
             text=True,
         )
     except subprocess.TimeoutExpired:
